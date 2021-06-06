@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3676458238837397341
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3676458240409581296}
+  - component: {fileID: 3676458238837397342}
+  - component: {fileID: 1731907874}
+  m_Layer: 0
+  m_Name: ColorSchemeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3676458240409581296
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3676458238837397341}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3676458238837397342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3676458238837397341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 290b326d884cf7e4e8d51bda348afdea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorSchemeList:
+  - colorSchemeID: 0
+    backgroundColor: {r: 0.105882354, g: 0.14901961, b: 0.17254902, a: 1}
+    slowEnemyColor: {r: 0.05882353, g: 0.29803923, b: 0.45882353, a: 1}
+    normalEnemyColor: {r: 0, g: 0.7176471, b: 0.7607843, a: 1}
+    fastEnemyColor: {r: 0.99215686, g: 0.79607844, b: 0.61960787, a: 1}
+  - colorSchemeID: 1
+    backgroundColor: {r: 0.26666668, g: 0, b: 0.2784314, a: 1}
+    slowEnemyColor: {r: 0.5686275, g: 0.81960785, b: 0.54509807, a: 1}
+    normalEnemyColor: {r: 0.9843137, g: 0.9254902, b: 0.9254902, a: 1}
+    fastEnemyColor: {r: 0.88235295, g: 0.11372549, b: 0.45490196, a: 1}
+  - colorSchemeID: 2
+    backgroundColor: {r: 0.06666667, g: 0.11372549, b: 0.36862746, a: 1}
+    slowEnemyColor: {r: 0.78039217, g: 0, b: 0.22352941, a: 1}
+    normalEnemyColor: {r: 0.9529412, g: 0.44313726, b: 0.12941177, a: 1}
+    fastEnemyColor: {r: 1, g: 0.7411765, b: 0.4117647, a: 1}
+  - colorSchemeID: 3
+    backgroundColor: {r: 0.019607844, g: 0.019607844, b: 0.019607844, a: 1}
+    slowEnemyColor: {r: 0.13333334, g: 0.12156863, b: 0.23137255, a: 1}
+    normalEnemyColor: {r: 0.43529412, g: 0.2901961, b: 0.5568628, a: 1}
+    fastEnemyColor: {r: 0.92156863, g: 0.92156863, b: 0.92156863, a: 1}
+  - colorSchemeID: 4
+    backgroundColor: {r: 0.105882354, g: 0.10980392, b: 0.14509805, a: 1}
+    slowEnemyColor: {r: 0.12156863, g: 0.2509804, b: 0.40784314, a: 1}
+    normalEnemyColor: {r: 0.1254902, g: 0.41568628, b: 0.3647059, a: 1}
+    fastEnemyColor: {r: 0.92156863, g: 0.9254902, b: 0.94509804, a: 1}
+  - colorSchemeID: 5
+    backgroundColor: {r: 0.08235294, g: 0.015686275, b: 0.52156866, a: 1}
+    slowEnemyColor: {r: 0.34901962, g: 0.03529412, b: 0.58431375, a: 1}
+    normalEnemyColor: {r: 0.7764706, g: 0.16470589, b: 0.53333336, a: 1}
+    fastEnemyColor: {r: 0.011764706, g: 0.76862746, b: 0.6313726, a: 1}
+  availableColorSchemes:
+  - colorSchemeID: 0
+    backgroundColor: {r: 0.105882354, g: 0.14901961, b: 0.17254902, a: 1}
+    slowEnemyColor: {r: 0.05882353, g: 0.29803923, b: 0.45882353, a: 1}
+    normalEnemyColor: {r: 0, g: 0.7176471, b: 0.7607843, a: 1}
+    fastEnemyColor: {r: 0.99215686, g: 0.79607844, b: 0.61960787, a: 1}
+  selectedColorScheme:
+    colorSchemeID: 0
+    backgroundColor: {r: 0, g: 0, b: 0, a: 0}
+    slowEnemyColor: {r: 0, g: 0, b: 0, a: 0}
+    normalEnemyColor: {r: 0, g: 0, b: 0, a: 0}
+    fastEnemyColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &1731907874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3676458238837397341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fca18bc6aa4f4c4cb0948c245d89762, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
